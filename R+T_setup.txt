@@ -1,0 +1,17 @@
+(.) first step install react app
+
+   npx create-react-app appname(only use small leter)
+
+. Tailwind setup
+
+(.) npm install -D tailwindcss postcss autoprefixer vite
+(.) npx tailwindcss init -p
+ (.)tailwind.config.js ke under content
+ content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  
+ (.) src ke under index.css
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
